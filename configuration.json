@@ -1,0 +1,16 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "<MY_OCTANE_SERVER>",
+    "port": <PORT>,
+    "proxy": "<PROXY_USED_TO_REACH_OCTANE>",
+    "shared_space_id": <SHARED_SPACE_ID>,
+    "workspace_id": <WORKSPACE_ID>
+  },
+  "authentication": {
+    "username": "<API_CLIENT_ID_OR_USERNAME>",
+    "password": "<API_CLIENT_SECRET_OR_PASSWORD>"
+  },
+  "maxPageSize": <OCTANE_MAX_PAGE_SIZE>,
+  "versionToUpdate": ""
+}

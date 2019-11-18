@@ -1,0 +1,38 @@
+{
+  "appenders": {
+    "everything": {
+      "type": "dateFile",
+      "filename": "logs/bulk_update_test_versions.log",
+      "level": "debug"
+    },
+    "emergencies": {
+      "type": "dateFile",
+      "filename": "logs/bulk_update_test_versions_errors.log",
+      "level": "debug"
+    },
+    "just-errors": {
+      "type": "logLevelFilter",
+      "appender": "emergencies",
+      "level": "error"
+    },
+    "console": {
+      "type": "console",
+      "level": "info"
+    },
+    "just-info": {
+      "type": "logLevelFilter",
+      "appender": "console",
+      "level": "info"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "just-errors",
+        "everything",
+        "just-info"
+      ],
+      "level": "debug"
+    }
+  }
+}
