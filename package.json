@@ -1,5 +1,5 @@
 {
-  "name": "@microfocus/alm-octane-bulk_upadter",
+  "name": "@microfocus/alm-octane-bulk-test-updater",
   "version": "1.0.0",
   "description": "Utility for bulk adding a release to latest test versions of tests. Tests can be filtered by application module and test versions can be filtered by the name of the version",
   "main": "src/bulk_update_test_versions.js",
