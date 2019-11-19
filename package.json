@@ -1,17 +1,32 @@
 {
-  "name": "bulk_upadter",
+  "name": "@microfocus/alm-octane-bulk_upadter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Utility for bulk adding a release to latest test versions of tests. Tests can be filtered by application module and test versions can be filtered by the name of the version",
+  "main": "src/bulk_update_test_versions.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroFocus/alm-octane-bulk-test-updater.git"
+  },
+  "keywords": [
+    "octane",
+    "microfocus",
+    "alm",
+    "release",
+    "test version",
+    "test"
+  ],
+  "author": "Alexander Stanciu <alexander.stanciu@microfocus.com>",
+  "license": "Apache-2.0",
   "dependencies": {
-    "@microfocus/alm-octane-js-rest-sdk": "^12.60.10",
-    "command-line-args": "latest",
-    "log4js": "^5.3.0"
-  }
+    "@microfocus/alm-octane-js-rest-sdk": "12.60.10",
+    "command-line-args": "4.0.7",
+    "log4js": "5.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/MicroFocus/alm-octane-bulk-test-updater/issues"
+  },
+  "homepage": "https://github.com/MicroFocus/alm-octane-bulk-test-updater#readme"
 }
