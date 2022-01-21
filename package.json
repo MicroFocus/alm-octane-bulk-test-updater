@@ -23,7 +23,7 @@
   "dependencies": {
     "@microfocus/alm-octane-js-rest-sdk": "12.60.10",
     "command-line-args": "4.0.7",
-    "log4js": "5.3.0"
+    "log4js": "6.4.0"
   },
   "bugs": {
     "url": "https://github.com/MicroFocus/alm-octane-bulk-test-updater/issues"
